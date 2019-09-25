@@ -49,7 +49,8 @@
                 //^^
 
                 userInput = readline.keyIn("")
-
+                    
+                // checks of the user inputted letter matches that of the specific letter of the word
                     if(char == userInput){
                         userTyped += char; wordLoop = false
                     }
